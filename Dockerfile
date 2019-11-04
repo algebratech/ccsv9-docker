@@ -72,7 +72,7 @@ RUN apt install -y libc6:i386 \
     libgcc1:amd64 \
     base-files
 
-# Get offline installer for version 8.
+# Get offline installer for version 9.
 RUN wget https://software-dl.ti.com/ccs/esd/CCSv9/CCS_9_2_0/exports/CCS9.2.0.00013_linux-x64.tar.gz
 
 # Move installation file to home
